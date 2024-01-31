@@ -1,0 +1,195 @@
+#Contact {
+  /* height: 100vh; */
+  width: 100vw;
+  background-color: #d9f5f8;
+}
+
+.form-box {
+  width: 100%;
+  background: linear-gradient(#16c062, #00bce0);
+}
+
+.contact_container {
+  row-gap: 3rem;
+}
+
+form{
+    width:100%;
+}
+
+.contact_content {
+    border-radius: 1rem;
+    border: 3px solid #fff;
+}
+
+.contact_message{
+    border-radius: 1rem;
+    border: 3px solid #fff;
+    /* width:100%; */
+}
+textarea{
+    width:98%;
+}
+
+.contact_info {
+  display: flex;
+  align-items: flex-start;
+}
+
+.contact_icon {
+  font-size: 2rem;
+  margin-right: 0.75rem;
+}
+
+.contact_title {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.contact_subtitle {
+  font-size: 1rem;
+  color: hsl(250, 8%, 45%);
+}
+
+.contact_input {
+  background-color:transparent;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.938rem;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  margin: 0.8rem;
+  width:96%;
+}
+
+::placeholder{
+    color:#fff;
+    opacity: 0.6;
+}
+
+#error-msg {
+  display: block;
+  width: 100%;
+  color: red;
+  margin-top: 2vh;
+  text-align: center;
+}
+
+.form-title{
+    font-family: "Poppins",sans-serif;
+    font-weight: 600;
+    color:#fff;
+    opacity: 0.89;
+}
+
+.contact-img {
+    display: block;
+    width: 69%;
+    margin:auto;
+}
+
+/* Button Styling */
+#sbmBtn{
+    border-radius: 1rem;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-23,
+.btn-23 *,
+.btn-23 :after,
+.btn-23 :before,
+.btn-23:after,
+.btn-23:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+
+.btn-23 {
+  -webkit-tap-highlight-color: transparent;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 100%;
+  font-weight: 900;
+  line-height: 1.5;
+  margin: 0;
+  padding: 2px;
+  text-transform: uppercase;
+}
+
+.btn-23:disabled {
+  cursor: default;
+}
+
+.btn-23:-moz-focusring {
+  outline: auto;
+}
+
+.btn-23 svg {
+  display: block;
+}
+
+.btn-23 [hidden] {
+  display: none;
+}
+
+.btn-23 {
+  border-radius: 99rem;
+  border-width: 2px;
+  overflow: hidden;
+  padding: 0.8rem 3rem;
+  position: relative;
+}
+
+.btn-23 span {
+  display: grid;
+  inset: 0;
+  place-items: center;
+  position: absolute;
+  transition: opacity 0.2s ease;
+}
+
+.btn-23 .marquee {
+  --spacing: 5em;
+  --start: 0em;
+  --end: 5em;
+  -webkit-animation: marquee 1s linear infinite;
+  animation: marquee 1s linear infinite;
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+  opacity: 0;
+  position: relative;
+  text-shadow: #fff var(--spacing) 0, #fff calc(var(--spacing) * -1) 0,
+    #fff calc(var(--spacing) * -2) 0;
+}
+
+.btn-23:hover .marquee {
+  -webkit-animation-play-state: running;
+  animation-play-state: running;
+  opacity: 1;
+}
+
+.btn-23:hover .text {
+  opacity: 0;
+}
+
+@-webkit-keyframes marquee {
+  0% {
+    transform: translateX(var(--start));
+  }
+
+  to {
+    transform: translateX(var(--end));
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(var(--start));
+  }
+
+  to {
+    transform: translateX(var(--end));
+  }
+}
