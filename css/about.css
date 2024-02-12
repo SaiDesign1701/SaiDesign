@@ -19,11 +19,11 @@
     z-index: 999;
     background: linear-gradient(90deg, rgb(2, 154, 255) 12%, rgba(255,255,255,0) 12%, rgba(255,255,255,0) 20%, rgb(199, 63, 209) 20%, rgba(199,63,209,1) 32%, rgba(255,255,255,0) 32%, rgba(255,255,255,0) 42%, rgba(233,87,36,1) 42%);
 }
-.about-box{
-}
 
 .text-box{
-    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .about-box p{
     text-align: justify;
@@ -32,5 +32,4 @@
     width:100%;
     display:block;
     margin:auto;
-
 }

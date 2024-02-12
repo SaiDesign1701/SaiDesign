@@ -17,7 +17,7 @@
 }
 .gallery-item{
     width: 28vw;
-    height: 20vmax;
+    height: 25vmax;
     border: 1px solid black;
     border-radius: 1rem;
 }
@@ -29,5 +29,5 @@
 }
 
 .gallery-item>img:hover{
-    opacity: 0.9;
+    opacity: 0.8;
 }
