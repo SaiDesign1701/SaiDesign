@@ -8,9 +8,9 @@ window.addEventListener('scroll',function(e){
 
     // add box shadow if final scrolling is equal to 0
     if(after != 0){
-        nav.style.background="rgba(255,255,255,0.3)";
+        nav.style.background="transparent";
         nav.style.backdropFilter="blur(10px)";
-        nav.style.border="1px solid rgba(255,255,255,0.25)"
+        nav.style.border="1px solid rgba(0,0,0,0.1)"
     }else{
         nav.style.boxShadow = "0px 0 0px black";
     }

@@ -1,5 +1,5 @@
 #About{
-    background: linear-gradient(#16c062, #00bce0);
+  background: linear-gradient(#141414,#0B60B0);
 
 }
 
@@ -27,6 +27,7 @@
 }
 .about-box p{
     text-align: justify;
+    color:#fff;
 }
 .about-box img{
     width:100%;

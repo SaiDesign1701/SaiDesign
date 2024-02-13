@@ -6,7 +6,7 @@ body{
 
 #home{
     position: relative;
-    background: linear-gradient(#16C062,#00BCE0);
+    background: linear-gradient(#141414,#0B60B0);
 }
 
 
@@ -36,9 +36,9 @@ body{
 .box{
     position: absolute;
     bottom: 0%;
-    background-color: rgba(217, 133, 31, 0.5);
-    box-shadow: 0 0 10px 0 rgba(135, 74, 31, 0.7);
-    border: 1px solid rgba(169, 27, 27, 0.447);
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10px 0 rgba(21, 97, 239, 0.7);
+    border: 1px solid rgba(23, 104, 245, 0.447);
     height: 100px;
     width: 100px;
     z-index: 5;
@@ -84,6 +84,7 @@ body{
     top:55vh;
     font-size: 8vmax;
     z-index: 999;
+    filter: invert(0.8);
 }
 
 .bi-lamp-fill{
@@ -94,7 +95,8 @@ body{
     height: 8vmax;
     z-index: 999;
 
-    opacity: 0.9;
+    filter: invert(0.9);
+
 }
 
 #Layer_1{
@@ -104,7 +106,7 @@ body{
     
     right: 25vw;
     top:14vh;
-    color: gray;
+    filter: invert(0.9);
     z-index:999;
 }
 
@@ -148,7 +150,7 @@ nav{
 #logo{
     height: 4vw;
     width: 4vw;
-    mix-blend-mode: color-burn;
+    mix-blend-mode:darken;
     
 }
 
